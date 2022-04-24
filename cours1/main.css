@@ -1,6 +1,7 @@
 /* style.css */
 body{
   background: rgb(245,245,245);
+  background-color: mediumpurple;
   color: hotpink;
   font-size: 25px;
   font-family: Helvetica;
@@ -10,6 +11,7 @@ h1{
   color: lightblue;
   font-weight: lighter;
   font-size: 30px;
+  text-alxign  : right
 }
 h2 {
   font-family: Courier;
@@ -17,10 +19,31 @@ h2 {
   font-weight: lighter;
   font-size: 8px;
 }
+h3 {
+  font-family: Courier;
+  color: darkorange;
+  font-weight: lighter;
+  font-size: 80px;
+  text-align  : center
+}
 a {
   color: yellow;
 }
 a:hover {
   text-decoration: none;
   color: purple;
+}
+p{
+    font-size:42px;
+    text-align:justify;
+}
+p::first-letter{
+    color:deepskyblue;
+}
+div {
+  color: green;
+}
+div.red {
+  color: red;
+  font-size: 200%;
 }
